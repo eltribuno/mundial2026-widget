@@ -8,27 +8,35 @@
 
 <style>
 html, body{
-  margin:0 !important;
-  padding:0 !important;
-  width:100% !important;
-  min-height:3000px !important;
-  overflow-x:hidden !important;
-  overflow-y:visible !important;
+  margin:0;
+  padding:0;
+  width:100%;
+  overflow-x:hidden;
   background:#fff;
 }
 
+/* contenedor */
 .widget-container{
-  width:100% !important;
-  max-width:100% !important;
-  min-height:3000px !important;
-  overflow:visible !important;
+  width:100%;
 }
 
+/* widget */
 .df-widgets{
-  width:100% !important;
-  max-width:100% !important;
-  min-height:3000px !important;
-  overflow:visible !important;
+  width:100%;
+}
+
+/* OCULTAR PUBLICIDAD Y BRANDING */
+.df-widgets .panel-banner1,
+.df-widgets .branding,
+.df-widgets [class*="advertising"],
+.df-widgets [class*="banner"]{
+  display:none !important;
+}
+
+/* quitar espacio vacío si queda margen */
+.df-widgets{
+  padding-top:0 !important;
+  margin-top:0 !important;
 }
 </style>
 </head>
