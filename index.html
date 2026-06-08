@@ -8,20 +8,27 @@
 
 <style>
 html, body{
-    margin:0;
-    padding:0;
-    width:100%;
-    overflow-x:hidden;
-    background:#fff;
+  margin:0 !important;
+  padding:0 !important;
+  width:100% !important;
+  min-height:3000px !important;
+  overflow-x:hidden !important;
+  overflow-y:visible !important;
+  background:#fff;
 }
 
 .widget-container{
-    width:100%;
-    max-width:100%;
+  width:100% !important;
+  max-width:100% !important;
+  min-height:3000px !important;
+  overflow:visible !important;
 }
 
 .df-widgets{
-    width:100%;
+  width:100% !important;
+  max-width:100% !important;
+  min-height:3000px !important;
+  overflow:visible !important;
 }
 </style>
 </head>
@@ -29,13 +36,13 @@ html, body{
 <body>
 
 <div class="widget-container">
-    <div
-        class="df-widgets"
-        data-component="stadiums-widget"
-        data-theme="fifa-classic"
-        data-variant="light"
-        data-lang="es">
-    </div>
+  <div
+    class="df-widgets"
+    data-component="stadiums-widget"
+    data-theme="fifa-classic"
+    data-variant="light"
+    data-lang="es">
+  </div>
 </div>
 
 <script src="https://1407747097.rsc.cdn77.org/worldcup/latest/df-draw-widget.iife.js"></script>
